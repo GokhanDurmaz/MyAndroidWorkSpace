@@ -1,0 +1,16 @@
+Android Jetpack Compose
+1. It has a principle of declarative programming of UI in Android.
+2. UI's are not an Object, they are functions.
+3. States control the UIs
+4. Events control the states
+
+Before Jetpack Compose:
+1. View hierarchy was representable as a tree of UI widgets.
+2. It is accessed by findViewById() method and it searches the tree of view hierarchy and returns view id.
+3. View states was updated with some methods like setText(), addChild(id: Int), etc.
+4. These methods increase the errors because of manipulating the UI manually.
+5. If a view is used in multiple places, it may be forgotten to update it.
+6. It may be an illegal state updates.
+7. It may cause a conflict of state changes.
+8. The maintenance complexity increases.
+
