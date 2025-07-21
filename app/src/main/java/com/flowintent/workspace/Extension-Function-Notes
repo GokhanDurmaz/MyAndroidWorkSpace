@@ -1,1 +1,9 @@
+// Extension functions come with Kotlin feature and the functions can extend classes and interfaces.
+// It does not need to inherit a class or use a decorator design pattern.
+// It can be used for Third-party -- libraries being not modified -- to add new feature logics.
+// It is defined as receiver type prefix and a method name follows the prefix like following;
+// fun Int.abs(number: Int) { }
+
+
+
 // Extension ları, higher order fonksiyonlarla kullanabiliyoruz.
